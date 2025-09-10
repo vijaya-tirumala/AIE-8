@@ -59,23 +59,9 @@ This "vibe check" now serves as a baseline, of sorts, to help understand what ho
 What are some limitations of vibe checking as an evaluation tool?
 ##### ✅ Answer:
 
-Vibe checking has several significant limitations as an evaluation tool:
-
-1. **Lack of Systematic Rigor**: Vibe checks are informal and unstructured, which means they don't follow standardized testing protocols. This makes results difficult to reproduce and compare across different systems or time periods.
-
-2. **Subjective Assessment**: The evaluation relies heavily on human judgment and "feel," which introduces bias and inconsistency. Different evaluators may have different standards or interpretations of what constitutes good performance.
-
-3. **Limited Scope**: Vibe checks typically only test a small subset of possible inputs and scenarios. They may miss edge cases, failure modes, or specific use cases that are important for real-world deployment.
-
-4. **No Quantitative Metrics**: Unlike formal evaluations, vibe checks don't provide measurable scores or benchmarks, making it difficult to track improvement over time or compare different systems objectively.
-
-5. **Surface-Level Testing**: They tend to focus on obvious failures rather than subtle issues like bias, safety concerns, or nuanced performance problems that might only emerge under specific conditions.
-
-6. **Temporal Bias**: Results can be influenced by the evaluator's current mood, recent experiences, or expectations, leading to inconsistent assessments of the same system.
-
-7. **Missing Edge Cases**: Vibe checks rarely test boundary conditions, adversarial inputs, or stress scenarios that are crucial for understanding system robustness.
-
-8. **No Baseline Comparison**: Without standardized benchmarks or comparison points, it's difficult to determine if a system's performance is actually good or just "not obviously broken."
+1. Customized test cases based on the user, no standard checks based on the sampling which makes difficult to cover all user scenarios and scale measurement of success
+2. When asked for a creative story about a robot, it made an intersting choice of friendship with kitten first attempt then bird in the second attempt. May introduce inconsistency and bias
+3. Missing the context and some edge cases. Required to start over with the focus
 
 ### 🚧 Advanced Build (OPTIONAL):
 
