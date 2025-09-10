@@ -36,15 +36,15 @@ You will be required to submit a link to your GitHub, as well as screenshots of 
 Please evaluate your system on the following questions:
 
 1. Explain the concept of object-oriented programming in simple terms to a complete beginner. 
-    - Aspect Tested:
+    - Aspect Tested: Good conversation starter, formatted output. real word classrom analogy as example, summary at the end
 2. Read the following paragraph and provide a concise summary of the key points…
-    - Aspect Tested:
+    - Aspect Tested: waiting for user input on the paragraph
 3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
-    - Aspect Tested:
+    - Aspect Tested: creative story narration, followed instructions on the word count generated with 129 words, story with a happy ending with the friendship theme
 4. If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?
-    - Aspect Tested:
+    - Aspect Tested: Solved the problem, descriptive, can do basic arithmetic and respond with an explanation
 5. Rewrite the following paragraph in a professional, formal tone…
-    - Aspect Tested:
+    - Aspect Tested: Encouragement in the tone and asked for user prompt before the attempt
 
 This "vibe check" now serves as a baseline, of sorts, to help understand what holes your application has.
 
@@ -58,6 +58,24 @@ This "vibe check" now serves as a baseline, of sorts, to help understand what ho
 
 What are some limitations of vibe checking as an evaluation tool?
 ##### ✅ Answer:
+
+Vibe checking has several significant limitations as an evaluation tool:
+
+1. **Lack of Systematic Rigor**: Vibe checks are informal and unstructured, which means they don't follow standardized testing protocols. This makes results difficult to reproduce and compare across different systems or time periods.
+
+2. **Subjective Assessment**: The evaluation relies heavily on human judgment and "feel," which introduces bias and inconsistency. Different evaluators may have different standards or interpretations of what constitutes good performance.
+
+3. **Limited Scope**: Vibe checks typically only test a small subset of possible inputs and scenarios. They may miss edge cases, failure modes, or specific use cases that are important for real-world deployment.
+
+4. **No Quantitative Metrics**: Unlike formal evaluations, vibe checks don't provide measurable scores or benchmarks, making it difficult to track improvement over time or compare different systems objectively.
+
+5. **Surface-Level Testing**: They tend to focus on obvious failures rather than subtle issues like bias, safety concerns, or nuanced performance problems that might only emerge under specific conditions.
+
+6. **Temporal Bias**: Results can be influenced by the evaluator's current mood, recent experiences, or expectations, leading to inconsistent assessments of the same system.
+
+7. **Missing Edge Cases**: Vibe checks rarely test boundary conditions, adversarial inputs, or stress scenarios that are crucial for understanding system robustness.
+
+8. **No Baseline Comparison**: Without standardized benchmarks or comparison points, it's difficult to determine if a system's performance is actually good or just "not obviously broken."
 
 ### 🚧 Advanced Build (OPTIONAL):
 
